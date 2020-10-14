@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatti</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+
+<body>
+  <form method="POST" action="https://github.com/sodine2020/contatti.git" accept-charset="UTF-8">
+    <div id="title_form"><h1>Compila il modulo per aiutarci ad elaborare meglio <br> la tua richiesta</h1>
+    </div>
+    <div class="contact-tabs_content">
+      <div class="contact-tabs_row">
+    <label for="email">Email</label>
+    </div>
+    <input type="email" placeholder="example@mail.com" id="mail" name="user_email">
+    <label for="name">Nome</label>
+    <input type="text" id="name" name="user_name">
+    <label for="telaio">Inserisci il telaio o la targa del tuo veicolo</label>
+    <input type="text" id="telaio" name="telaio">
+    <label for="scegli">Seleziona il motivo della richiesta di contatto</label>
+    <select id="scegli" name="elenco">
+     <option value="1">Verifica disponibilità</option> 
+     <option value="2">Ulteriori informazioni su questo pezzo di ricambio</option>
+     <option value="3">Modalità di pagamento</option>
+     <option value="4">Altro motivo</option>
+     </select>
+     <label for="comment">Descrivi brevemente la tua richiesta</label>
+     <input type="text" id="comment" name="comment">
+    <input type="submit" value="INVIA">
+  </form>
+
+</body>
+
+</html>
