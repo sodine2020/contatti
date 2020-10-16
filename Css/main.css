@@ -3,14 +3,15 @@ body {
   margin: 0 auto
   
 }
-.logo-content img {
-  float: left;
-}
-#title_form {
+
+#title_form img {
       color: #ff4c15;
       text-align: center;
-      text-transform: uppercase
+      text-transform: uppercase;
+      float: left;
+      
     }
+    
 .contact-tabs_content {
   text-align: left;
   padding: 25px 95px;
