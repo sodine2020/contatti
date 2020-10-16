@@ -23,12 +23,14 @@
         <label for="telaio">Inserisci il telaio o la targa del tuo veicolo</label>
         <input type="text" id="telaio" name="telaio">
         <label for="scegli">Seleziona il motivo della richiesta di contatto</label>
-        <select id="scegli" name="elenco">
-          <option value="1">Verifica disponibilità</option> 
-          <option value="2">Ulteriori informazioni su questo pezzo di ricambio</option>
-          <option value="3">Modalità di pagamento</option>
-          <option value="4">Altro motivo</option>
-        </select>
+        <div id="select-content">
+          <select id="scegli" name="elenco">
+            <option value="1">Verifica disponibilità</option> 
+            <option value="2">Ulteriori informazioni su questo pezzo di ricambio</option>
+            <option value="3">Modalità di pagamento</option>
+            <option value="4">Altro motivo</option>
+          </select>
+        </div>
         <label for="comment">Descrivi brevemente la tua richiesta</label>
         <input type="text" id="comment" name="comment">
         <input type="submit" value="INVIA">
