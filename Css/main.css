@@ -3,6 +3,10 @@ body {
   margin: 0 auto
   
 }
+body img {
+  width: 100px;
+  height: 100px;
+}
 
 #title_form  {
       color: #ff4c15;
