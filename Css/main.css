@@ -35,6 +35,9 @@ body img {
   border-radius: 3px;
   border: 1px solid #c5c5c5
 }
+.intestazione {
+  font-weight: bold;
+}
 .footer {
   text-align: center;
   word-spacing: -3px;
