@@ -43,6 +43,6 @@ body img {
 }
 .footer {
   text-align: center;
-  word-spacing: -3px;
+  word-spacing: -.2ch;
   font-size: 75%;
 }
