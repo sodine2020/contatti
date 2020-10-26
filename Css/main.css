@@ -22,8 +22,6 @@ body img {
   width: 460px;
   margin: auto
   
-
-  
 }    
 .contact-tabs_row {
   position: relative;
@@ -46,5 +44,7 @@ body img {
   font-size: 75%;
 }
 @media only screen and (min-width:768px) {
-  
+  .contact-tabs_content input {
+    width: 50%;
+  }
 }
