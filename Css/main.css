@@ -45,3 +45,6 @@ body img {
   word-spacing: -.2ch;
   font-size: 75%;
 }
+@media only screen and (min-width:768px) {
+  
+}
